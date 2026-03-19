@@ -42,10 +42,8 @@ if img_file_buffer is not None:
     print(prediction)
     if prediction[0][0]>0.5:
       st.header('Izquierda, con Probabilidad: '+str( prediction[0][0]) )
-       st.write("Es Valenchina")
     if prediction[0][1]>0.5:
       st.header('Arriba, con Probabilidad: '+str( prediction[0][1]))
-       st.write("Es Salomé")
     #if prediction[0][2]>0.5:
     # st.header('Derecha, con Probabilidad: '+str( prediction[0][2]))
 
